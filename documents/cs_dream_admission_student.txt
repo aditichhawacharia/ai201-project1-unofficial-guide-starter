@@ -1,0 +1,17 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: I REALLY want to get into UT CS. It's my dream school. Can anyone who has been accepted to UT CS give advice on how to boost my chances?
+Flair: Advice
+Approximate Date: ~5 years ago
+
+Original Post — Zubyking (OP)
+Specifically: what should I talk about in my essays? Any last minute extracurriculars I can do? What is the acceptance rate for CS? Worst case scenario if I don't get accepted, what are some good alternative universities? It can be out of state too.
+
+Comments
+[deleted] | 5 years ago | Upvotes: 2
+I have a friend who is currently in UT CS. He was in Science Olympiad and band in high school and was one of the Earth Science Olympiad students. He took 6 AP classes in senior year (I wouldn't recommend that lol) and had a GPA of 4.0 or above. I'm hoping to transfer to UT next year — it was my dream school too but sadly I got placed in CAP. I wish you the best!
+
+Zubyking (OP) | 5 years ago | Upvotes: 2 (reply)
+He seems very similar to me. I have a 3.98 unweighted and 5.29/6.0 weighted and a 1500 on the SAT. I did do Science Olympiad too and made it to states for two events. There's so much competition though and it seems everyone at my school is better than me. Also good luck on transferring!
+
+samureiser | 5 years ago | Upvotes: 2
+Per the CNS FAQ page: it is helpful to show a strong background with good grades in math (especially Calculus) and major-level science, and in any CS courses you may have taken. Experience in CS (inside and/or outside of the classroom) is also helpful. If your high school has a CS program or offers AP courses, it is advisable to take these courses and the AP tests associated with them.

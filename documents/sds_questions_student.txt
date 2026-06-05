@@ -1,0 +1,47 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: I got in for SDS but I have some questions
+Flair: Other
+Approximate Date: ~1 year ago
+Upvotes: 3 | Downvotes: 12
+
+Original Post — dunkar00ed (OP)
+I just got into Stats and Data Science and I'm 100% committed!! I have a few questions though:
+
+I want to double major with either finance or BAX, is it very difficult to do so? What would I need to do in order to get in?
+How difficult are SDS courses? I don't have too much R experience (should I get some?).
+Any other advice or things I should know?
+(Edit) Can I use a MacBook for the required programs?
+
+Thanks!
+
+Comments
+DiscoBobulater | 1 year ago | Upvotes: 2
+SDS classes aren't really hard, but it does involve a lot of coding so keep that in mind. You will be taking intro Python and R. You can use your MacBook.
+
+dunkar00ed (OP) | 1 year ago | Upvotes: 1 (reply to DiscoBobulater)
+Ok, thanks.
+
+Dangerous-Basil1561 | 1 year ago | Upvotes: 2
+SDS makes it easy to double major, a lot of built in room. I recommend to start your second major early (even if you don't end up doing it, it'll count for SDS breadth) and talk to the advisors of the major you want to add. You'll need to apply, but you should be able to do basic courses before that. I'm graduating in 4 years with SDS and Geology, but I had a decent amount of credits and I took summer courses last year.
+Freshman SDS courses are pretty easy, so far my sophomore ones are a lot harder but doable.
+You don't really need to have coding experience. The fall freshman course you'll take teaches you how to code in R. You'll also have to take Python courses. They are for all levels of coding, but I might recommend lightly brushing up on Python beforehand.
+
+dunkar00ed (OP) | 1 year ago | Upvotes: 2 (reply to Dangerous-Basil1561)
+This was very helpful thank you!
+
+Dangerous-Basil1561 | 1 year ago | Upvotes: 1 (reply to OP)
+Of course, let me know if you have any other questions.
+
+Available-Scholar709 | 1 year ago | Upvotes: 1
+Could you please share all your stats, I'm applying next year.
+
+dunkar00ed (OP) | 1 year ago | Upvotes: 1 (reply to Available-Scholar709)
+Yeah I'll DM you.
+
+Psychological_Bag_94 | 1 year ago | Upvotes: 1
+Look into business internal transfer for the finance double major.
+
+Psychological_Bag_94 | 1 year ago | Upvotes: 1 (follow-up)
+And check the finance degree plan — they don't really overlap a lot so it may be difficult to fit everything in 4 years.
+
+Devil-Lem0n | 1 year ago | (comment text not provided in source)

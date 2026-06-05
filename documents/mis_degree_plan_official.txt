@@ -1,0 +1,14 @@
+Management Information Systems
+
+There is a great demand for individuals with knowledge about both business and computer applications. Through a series of business core courses and business computer courses, the program in management information systems is intended to prepare a professional who can fully appreciate the complexity of information system design. The graduate is expected to have both the technical and the managerial knowledge to solve fundamental business problems in inventory control, production, forecasting, finance, cost accounting, and other areas. Courses are designed to provide a foundation in the integration of hardware, software, networking, and business functional analysis for business systems.
+
+The requirements of this program are:
+
+The Core Curriculum requirements and the BBA Degree Requirements
+Management Information Systems 304, Introduction to Problem Solving and Programming
+Management Information Systems 325, Database Management
+Management Information Systems 333K, Web Application Development
+Management Information Systems 374, Business System Development
+Management Information Systems 375, Strategic Information Technology Management (may fulfill the writing and independent inquiry flags)
+Six additional semester hours of upper-division coursework in management information systems
+Additional elective coursework, if necessary, to provide a total of at least 120 semester hours

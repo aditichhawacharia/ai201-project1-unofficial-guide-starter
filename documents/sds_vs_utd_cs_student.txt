@@ -1,0 +1,50 @@
+**Source:** Reddit — r/[subreddit unknown]
+**Thread Title:** UT SDS vs UTD CS
+**Approximate Date:** ~1 year ago (relative to scrape date)
+**Upvotes:** 5 | **Downvotes:** 7
+
+---
+
+**Original Post**
+
+My two options are UT and UTD, and I'm stuck on deciding how each major would help me with a future internship/job in a computer-related field, mostly like an artificial intelligence or mathematics involved area since every other aspect is way too saturated. However, after reading through a lot of opinions for hours, I don't know what to make out of this, as on one side, people talk about saving money and being broad, while others talk about connections and brand image.
+
+---
+
+**Comments**
+
+**Timely_Programmer301** | 1 year ago | Upvotes: 9
+
+I would go with whatever interests you more. I personally would go with UT SDS but that's just me.
+
+---
+
+**Charis_Akins** | 1 year ago | Upvotes: 7
+
+UT SDS is focused a lot more on the Statistics part than the Data Science part, there is Machine Learning classes and programming but its basically just a lot of math and theory. It's all related to AI/ML, but for practical experience you have to go do it outside of class. Luckily, UT has a lot of research opportunities and the major has a lot of place for other classes. Pretty much all SDS students are going for the CS certificate and a lot of them go for a business minor or something else. I don't know too much about UTD CS, but it'll probably give you more opportunities to branch out into other programming roles like SWE and DevOps more easily, though a CS certificate from UT is something that employers look at and acknowledge. There is no CS minor at UT, the closest thing is the cert. Still, for SDS at UT a lot of the practical skills you need to DS internships and stuff you will probably have to learn outside of class.
+
+Brand recognition doesn't mean anything, as long as you know your stuff and network, but it's possible that it would be easier to make higher level connections at UT than UTD. Also, AI is also pretty saturated right now, so if that's something you want to do as a career because you like it, go for it, but if you're looking to go in just because it's not competitive, you might want to reconsider.
+
+---
+
+**So_** | 1 year ago | Upvotes: 5
+
+UTD CS, every time. Although you can get CS jobs in either, SDS won't teach you some fundamental CS concepts which you probably should know, as well as won't give you the same amount of hands on programming.
+
+---
+
+**MOSFETBJT** | 1 year ago | Upvotes: 2
+
+UT SDS 1000000%. It's a significantly more prestigious program.
+
+---
+
+**Mammoth-Technology83** | 1 year ago | Upvotes: 1
+
+I'm in UT SDS right now and am able to answer any questions you have to the best of my ability! DM me.
+
+---
+
+**Sairam2014** | 2 months ago | Upvotes: 1
+
+Hi, my daughter just got accepted into this program - class of 2026. I wanted to ask how do you think the program is placed in terms of the job market/internships? How big is the class? What double major opportunities are available?

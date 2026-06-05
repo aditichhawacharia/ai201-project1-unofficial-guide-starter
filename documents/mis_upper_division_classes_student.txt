@@ -1,0 +1,19 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: [Untitled — question about upper division MIS classes]
+Flair: Question
+Approximate Date: ~6 years ago
+Upvotes: 3 | Downvotes: 3
+
+Original Post
+What are upper div MIS classes like? Are they heavily coding based or more conceptual? Also, what is MIS 475 like, in terms of content, time commitment, and grade distribution?
+
+Comments
+arioid | 6 years ago | Upvotes: 4
+It varies a lot. For electives like 373, there are topics that go into code and topics that do deep conceptual discussions with tons of industry professionals. 374 is a consulting experience where you get paired with a client and work on a project for them, so that can be extremely technical but will vary based on the client you get — time commitment is higher than average for a MIS class, but again will vary based on your client. 375 is more case-driven discussions plus a project.
+Ultimately, lots of opportunities for technical experiences. If you're looking for more, I'd recommend adding the Elements of Computing Certificate and taking some additional classes from there. For grade distribution information, look at Catalyst's Distribution data or the data available in the UT Registration Plus Extension on the course catalog.
+
+shaand24 | 6 years ago | Upvotes: 2
+Currently taking 375. Can confirm it is mostly case discussions and group assignments, workload increases as the semester goes on.
+
+tipsy_python | 6 years ago | Upvotes: 1
+I really agree that the 373s vary a lot — you have to research each one to see. 374 is consulting focused and is a lot of documentation. It can be technically challenging depending on your project — I had to code PHP for the first time and it was rough. 375 was pretty easy for me. Couple hours of reading a week, some casual papers. The main assignment was pretty much developed and discussed during class, we just typed it up individually — mostly Bs and higher.

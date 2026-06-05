@@ -1,0 +1,108 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: The School of Information is on its way out
+Flair: News
+Approximate Date: ~7 months ago
+Upvotes: 220 | Downvotes: 70
+
+Original Post — bikegrrrrl (OP)
+The School of Information will be consolidated/restructured into the College of Natural Sciences, along with Computer Science and Statistics and Data Science, to begin in fall 2026. To add to the confusion, nothing formal will be stated anytime soon, in part because the Board of Regents has to do whatever it is they do first.
+I am not clear on what might happen to the preservation/archives side of the school.
+(ETA — official statement added by OP):
+Dear iSchool students,
+I'm writing to share an update regarding the future of the School of Information. Members of leadership in the College of Natural Sciences, School of Information, and Office of the Executive Vice President and Provost recently began exploring a new vision for the future. The University is considering putting forward a request to the Board of Regents based on an emerging vision to establish a new school that would be launched within the College of Natural Sciences, of which we will be a part along with the Department of Computer Science and the Department of Statistics and Data Science. This proposed transition will provide new avenues in research and resource collaboration, while keeping our current degree and certificate offerings intact. In particular, please note:
+Our academic programs and education of current and prospective students are continuing. The iSchool's robust academic curriculum is widely recognized across UT and beyond. Our degrees and certificates, including the undergraduate Informatics major and minor, MSIS, dual degree options, MSISP, PhD, Integrated 4+1, and the School Librarian Certificate, along with credentials including ALA accreditation, will all remain.
+The vision for the new school is to extend resources and support through strategic partnerships, collaboration among researchers, and new investments. Key goals for the new school are to be able to serve more students with interest in our disciplines and deepen our impact within the research enterprise through more work together with departments within the new school.
+The College of Natural Sciences offers natural synergies with Information. It is anticipated that the iSchool will retain autonomy on key decisions while having new access to resources and connections within UT's largest college. A request to launch the school is planned to go to UT System leadership and the Texas Higher Education Coordinating Board this academic year, and a public announcement is planned in the near future.
+I want to emphasize again that no changes are anticipated in your paths to degree, academic and career advising, student services, graduation or other resources you have come to rely on. I will keep you all informed as planning continues and we have more details to share. We are excited about the possibilities ahead and opportunities for new connections, enhanced resources, and deepened collaborations with complementary disciplines at the center of the University's next era of innovation. As we navigate this transition together, we remain a strong and supportive community.
+
+Comments
+Texas_Naturalist | 7 months ago | Upvotes: 6
+I suspect this was a long time coming, as the School of Information has always been much smaller than the other schools.
+
+bikegrrrrl (OP) | 7 months ago | Upvotes: 24 (reply to Texas_Naturalist)
+I know, so much smaller than the Boss Hogg School of Civic Indoctrination.
+
+Texas_Naturalist | 7 months ago | Upvotes: 6 (reply to OP)
+I'm gonna start calling it that.
+
+Present-Associate370 | 7 months ago | Upvotes: 3
+Current iSchool senior in the Health track here, and honestly I'm pretty excited about the change. I totally get why some of the other tracks might feel unsure, but for health informatics specifically, this really feels like a level-up. Being under CNS means way better access to research labs, data science resources, and connections with medical/STEM groups on campus, which is huge for anyone trying to go into healthcare tech. It also boosts the "STEM credibility" of the degree, which matters for grad school, internships, and industry roles. Plus, CNS usually has stronger funding, bigger opportunities, and more recognition overall, so I think this shift can only help health informatics students in the long run.
+
+bikegrrrrl (OP) | 7 months ago | Upvotes: 1 (reply to Present-Associate370)
+Hard to be excited about any change they don't want to put in writing.
+
+blueespadrille | 7 months ago | Upvotes: 124
+This puts the GLAM (galleries, libraries, archives, museums) side of the college in a really awkward spot.
+
+erstwhiletexan | 7 months ago | Upvotes: 61 (reply to blueespadrille)
+iSchool alumni here. They've been trying to get rid of that side of the program for years. When I was there 15 years ago, the Dean wanted to give up the American Library Association accreditation for the program. This news is really upsetting, but not very shocking. UNC-CH is doing the same thing to their iSchool.
+
+blueespadrille | 7 months ago | Upvotes: 12 (reply to erstwhiletexan, edited)
+Hi fellow alumni! Even in more recent years that seems to be the trend — I know the last round of ALA accreditation that happened in 2022 people were nervous about it.
+
+Next_Dig5265 | 7 months ago | Upvotes: 28
+I'm an archives track student in my second year right now and yeah, it's a pretty doomy and gloomy atmosphere for GLAM students. The ALA and SAA student chapters have been putting in a crazy amount of work to make their voices heard. I'm pretty sure we either just submitted or will be submitting a long letter with polling data to the dean to try and make voices heard. Hate that all of this is happening, but really I blame myself for being in Texas. Insanity is doing the same thing the same way and expecting different outcomes.
+
+TLE307 | 7 months ago | Upvotes: 22
+Only Laura Bush can save it now.
+
+TLE307 | 7 months ago | Upvotes: 15 (follow-up)
+I was joking with my Laura Bush comment, but have the SAA and ALA student chapters considered reaching out to her?
+
+[deleted] | 7 months ago | Upvotes: 33
+Does that mean they'll allow internal transfers into SDS?
+
+IllustratorBig1014 | 7 months ago | Upvotes: 29
+What the FUCK
+
+Sixthirtysixayem | 7 months ago | Upvotes: 21
+They are being forced into this arrangement by university leadership. The school has been trying to get a permanent dean in place for a while, but this new provost is uninterested in hiring a new dean for the information school. If you listen to the president's inaugural address he mentions changes to CNS related to AI and that points to this.
+
+BlueEyesFullHearts | 7 months ago | Upvotes: 19
+Isn't CS and SDS already part of CNS?
+
+pgoetz | 7 months ago | Upvotes: 7 (reply to BlueEyesFullHearts)
+The plan is for CS and SDS to be part of a school of computer science (i.e. a school under CNS). Apparently they now want to add the iSchool to this new school, which would be a demotion for the iSchool, since it's already a school.
+
+Lena-Luthor | 7 months ago | Upvotes: 11 (reply to BlueEyesFullHearts)
+SDS is CNS, CS is like, separate but equal lol — they have their own transfer rules and advisors and stuff.
+
+the_zac_is_back | 7 months ago | Upvotes: 6 (reply to Lena-Luthor)
+I didn't know CS was different but not at the same time.
+
+GeneralCriminal_4747 | 7 months ago | Upvotes: 9
+iSchool alum here — it has been on its way out for a while, which is a major shame because Austin has so many incredible archives and libraries. Probably better to just enroll in museum studies or a PhD program for your area of specialty at this point if you're really tied to the city.
+
+ichigox55 | 7 months ago | Upvotes: 23
+The archives program is really small as far as I know since UX and DS have literally taken over the entire program. I think the problem might be because the Data Science courses offered here are not it. Also, the bar for entry for MSIS at iSchool is really low. We have most of the students using laptops in class all the time however good the professor is, not to mention the rampant AI use.
+I think for future students, it will require more effort to get in. On the bright side, merging with CNS could mean better funding and more opportunities for students. Also, I have heard that iSchool will move into the current McCombs building once the new construction for McCombs is done. The current building is really unsafe and we have had incidents with homeless people breaking in which our interim dean has tried to shove under the rug.
+
+Shot-Chart-2318 | 7 months ago | Upvotes: 5 (reply to ichigox55)
+FYI — admission to the MSIS is highly competitive, usually more than 800 applicants for 150 spots.
+
+Straight_Group_1734 | 7 months ago | Upvotes: 7
+Behavioral and Social Data Science should also be placed with SDS/iSchool as BSDS has more AI and programming than iSchool data science.
+
+chaotic_floral | 7 months ago | Upvotes: 6
+Source?
+
+yeet135790 | 7 months ago | Upvotes: 19 (reply to chaotic_floral)
+There was a faculty/staff-wide meeting about this. Some students have heard from people who were in the meeting.
+
+MinimumAd8773 | 7 months ago | Upvotes: 6
+Does anyone have the link to this article? Tried to find it but don't see it.
+
+warmboot | 7 months ago | Upvotes: 8
+Although I'm no fan of business school, the MIS program seems like a better home for what's left of the iSchool.
+
+Obvious_Wrangler9157 | 7 months ago | Upvotes: 3
+So how would external transfers into this major work. I know SDS doesn't take any external transfers but what will the people applying for Informatics transfer for fall 2026 do?
+
+Low_Jury_2674 | 7 months ago | Upvotes: 2
+Would this only apply for people coming in fall 2026 or would current students be put into another program?
+
+yeet135790 | 7 months ago | Upvotes: 5 (reply to Low_Jury_2674)
+We were told that the curriculum will stay the same.
+
+DifferenceNo1565 | 7 months ago | Upvotes: 3
+Heard this as well from a professor and the school will be named after the donor — the rumor is it will be Elon Musk.

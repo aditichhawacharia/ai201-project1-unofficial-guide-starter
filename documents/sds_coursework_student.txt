@@ -1,0 +1,44 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: Statistics and Data Science Major coursework
+Flair: Question
+Approximate Date: ~1 year ago
+Upvotes: 3 | Downvotes: 9
+
+Original Post — ducey1664 (OP)
+My daughter got into the SDS major. She is interested in the combination of CS and Data Science. The coursework for the SDS major seems to be geared towards math and statistics, with three CS courses. Is that an accurate impression? Are there opportunities for SDS students to enroll in CS electives? How difficult is it to change major to CS from the SDS major?
+
+Comments
+ducey1664 (OP) | 1 year ago | Upvotes: 1 (follow-up update)
+Thanks for your responses. I understand switching majors to CS at UT Austin is nearly impossible. It is good to hear that double majoring in a different subject area or a minor is an option at UT. She got into UMD CS with a Data Science specialization and Vandy also. All of them are out of state for us. She has been going through the course lists to figure out the next steps.
+
+gnosnivek | 1 year ago | Upvotes: 1
+Since I haven't seen it stated explicitly here, I wanted to add that CS does not have a "minor" in the classic sense. There is a certificate program which covers many topics in the field, but these are not the same courses as the majors take, sitting at a much lower level of rigor and depth. Non-majors are not allowed to take the same courses as majors (with a few exceptions), so students will be limited to the Elements courses. These courses have names that start with "Elements of" and have an "E" at the end of the course number, e.g. Elements of Software Design, CS 313E.
+
+Dangerous-Basil1561 | 1 year ago | Upvotes: 5
+You can totally do more CS stuff. A lot of people I know are completing the CS certificate (about 3 extra CS courses). SDS also requires that you take a breadth topic — you can choose any you'd like, including CS. She might be able to double major in CS if she wanted to. I'm double majoring in Geology, and there are a lot of other SDS kids double majoring or double minoring. SDS has about 40 hours of free electives, so those can be used for CS. Keep in mind that in stats classes, you also learn how to code in R.
+
+Citrus_Sphinx | 1 year ago | Upvotes: 2
+She can just do the CS minor if she wants more programming. It really won't matter if she wants to be a programmer. The CS curriculum at UT is heavily theory based and heavily influenced by the math department (where the CS department spawned from at UT). Good GPA and the data science differentiator should set her up for success in internships. The internships are really the biggest boost in finding a job post school.
+
+MOSFETBJT | 1 year ago | Upvotes: 2
+Being more into the math side is actually really good. Also, CS is super oversaturated.
+
+[deleted] | 1 year ago | Upvotes: 3
+It is highly unlikely that your daughter would be able to either (a) change major into CS or (b) add CS as a second major. Do not count on that happening as it almost assuredly will not happen. CS is an insanely competitive program at UT and 4.0 GPA students are routinely denied transfer entry into the program.
+
+BlkSkwirl | 1 year ago | Upvotes: 1
+Full disclosure, I did not attend UT but I do have a degree in Statistics and my son will be attending UT in the fall for CS. So while this won't be completely accurate for UT, I can give you my experience having obtained a Stats degree and also did a detailed review of the CS curriculum at UT.
+Stats will be geared towards the mathematics side. Many of the upper division classes in stats are based on multivariate calculus, advanced statistical and probability theory, proofs, etc. It's not quite as intensive as a pure mathematics degree, but it's probably more math than CS. The overlapping classes I had to take were Programming, Discrete Structures and Logic, Computer Theory/Numerical Calculus, and maybe one other I have since forgotten. In the stats degree track there will be classes focused on use of statistical programming languages (R, Python, SAS).
+I'm not as familiar with the Data Science degree track as the DS term really wasn't a thing when I got my degree. Stats has basically been rebranded as DS, I think with a bit more focus on advanced computing methods — probably a lead in to things like Machine Learning and AI.
+The CS curriculum my son will be taking is different — significantly more CS-based classes (more programming languages, more CS theory). I didn't even take CS 1 with my degree.
+Also, it's almost impossible to change your major into CS at UT. My son had to apply directly to CS and it's highly competitive. He's been coding since he was 11 with significant coursework related to CS (passed both AP CS tests with 4/5), 6.0 weighted GPA / 4.0 UW, nearly perfect SAT math score, top 3 in his class rank of 600 — and we were worried he wouldn't get accepted to CS. He applied CS to several top 20 ranked programs and got accepted to only about half. It's a really difficult major to get into at the top schools.
+
+MaryCat123 | 1 year ago | Upvotes: 1
+Pretty sure there is no CS minor. The certificate though is very popular. https://www.cs.utexas.edu/undergraduate-program/academics/programming-and-computation
+
+Sufficient-Today3292 | 1 year ago | Upvotes: 1
+I'd 1000% look into the CS Certificate. She's guaranteed 2/6 of the CS classes required for it. There's also a lot of elective space in her schedule for the rest of the requirements.
+CS as a major is extremely difficult to transfer into. Since she's already in a major that deals with data science and has computational elements, it might be better for her to focus on the certificate and potential research opportunities that involve programming. Note that none of these classes (including the ones she's taking) will transfer to a CS degree, and CS notoriously doesn't allow non-majors in CS classes.
+Look into the FRI (Freshman Research Initiative) program. These are research streams designed for first year students. Many of them involve coding but require no prior coding experience. You can ask around at orientation about fields of faculty research that involve coding — astronomy research is almost entirely coding, for example.
+There are many different hackathon events offered by UT for different majors and colleges. She can go to career fairs or look on platforms like Handshake (kind of like LinkedIn specifically for UT students and companies wanting to hire them) to find internships.
+CS as a UT major is incredibly difficult to transfer into, and I personally know people that have unsuccessfully attempted to do so. Since she'll already be getting relevant knowledge from her major, focus on programming opportunities she'll have access to as an SDS major rather than those restricted to CS.

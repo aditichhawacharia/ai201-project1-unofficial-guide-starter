@@ -1,0 +1,43 @@
+Source: Reddit — r/[subreddit unknown] Thread Title: Favorite MIS course you've taken? Flair: Question Approximate Date: ~6 years ago Upvotes: 6 | Downvotes: 7
+
+Original Post — spitecranberry (OP)
+
+Hey, a prospective first-year Longhorn just trying to get a better feel of the courses for my major at UT. I've seen all the technical descriptions for MIS courses offered but I'd just like to hear some personal opinion about them. Thanks for the help!
+
+Comments
+
+shaand24 | 6 years ago | Upvotes: 3
+
+Senior MIS major here. Currently taking MIS 373 (which designates electives) IT Audit and Security with Tanriverdi. The class is super engaging — we usually have some light case reading and then discussions during class, and we have a lot of guest lecturers from the industry. Assignments are exclusively case write-ups, there are no exams. None of my other MIS classes have really reflected this level of engagement with the real world, and the content is super relevant because cybersecurity affects everybody and is only becoming more and more important. Definitely recommend.
+
+spitecranberry (OP) | 6 years ago | Upvotes: 1 (reply to shaand24)
+
+Thank you! That's helpful to know. I'm also interested in exploring entrepreneurship — I know there's a finance course integrated with entrepreneurship but is there something similar in the MIS track or should I just look into a minor/certificate?
+
+shaand24 | 6 years ago | Upvotes: 1 (reply to OP)
+
+I don't believe so, would recommend the minor/certificate.
+
+breathe_dah | 6 years ago | Upvotes: 2
+
+Graduated MIS last year, my favorites are:
+
+373 Mobile Apps and Web Services with Josh Rock — Challenging, fast-paced class, but you learn a lot of super useful tools and technologies and Rock himself is a very interesting guy. (Sidenote: the name for this class may be changing soon to better reflect its content.)
+
+373 Enterprise Computing with Ed Doan — Only offered in the fall unfortunately, but very useful class that talks mostly about cloud technologies and how they're used to scale business applications. Not super intense but still informative and somewhat technical.
+
+373 Advanced Analytics Programming with Chakrabarti — I personally haven't taken this, but if you're interested in data analysis and beefing up your Python skills it does a pretty good job.
+
+Also, I'm a big proponent that MIS majors should all take the CS Elements program to boost their technical/programming skills. There are plenty of interesting electives in there, and you can use some MIS classes to reduce the amount of credit needed to get the certificate so the investment is pretty low.
+
+spitecranberry (OP) | 6 years ago | Upvotes: 2 (reply to breathe_dah)
+
+Ty those all sound really interesting!
+
+mistersquiish | 6 years ago | Upvotes: 2
+
+373 Enterprise with Doan. Great class and even better teacher. Doan works part-time at Google too, which is cool.
+
+spitecranberry (OP) | 6 years ago | Upvotes: 1 (reply to mistersquiish)
+
+Gotta look into that!

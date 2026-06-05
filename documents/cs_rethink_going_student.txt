@@ -1,0 +1,85 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: Should I rethink going to UT CS?
+Flair: Question
+Approximate Date: ~4 months ago
+Upvotes: 0 | Downvotes: 29
+
+Original Post
+I applied to UT CS and got in, but it really got me thinking about my future (a little late IK). How cooked is the job market for CS compared to engineering? I also got into A&M engineering and was wondering if maybe I should do that? (like switching major to mech or electrical engineering my 2nd yr.) Should I focus on doing something niche in computer science?
+I'm so conflicted pls help
+
+Comments
+Jptroll | 4 months ago | Upvotes: 29
+Buddy CS market messed up or not, if it's something you genuinely enjoy and you think you can make something out of it, then go for it. Don't regret not taking what you like because "the market is terrible." Maybe in the near future it'll lighten up.
+
+SchlongCopter69 | 4 months ago | Upvotes: 2
+Bro. Mechanical PE here... love what I do, yet I'm being heavily recruited into AI software sales. Take that as you will.
+(follow-up edit): Ironically my experience is in designing AI data centers and energy. Still cracks me up.
+
+Mr_Aleko | 4 months ago | Upvotes: 5 (reply to Jptroll)
+Disagree respectfully, not saying he shouldn't do CS (I'm CS), but the job market 100% matters.
+
+Impressive_Yam7957 | 4 months ago | Upvotes: 2 (reply to Mr_Aleko)
+The job market does matter, but making your decisions based on the current market when you have no idea what it will be in 4 years is pointless.
+
+Cultural_Jaguar741 | 4 months ago | Upvotes: 14
+I do not think CS is dead. The field is changing the world right now. You will learn about something incredibly important.
+
+Slice_Of_lemon101 | 4 months ago | Upvotes: 7 (edited)
+I'm a CS senior about to graduate. No one has the magic 8 ball to tell you what the market will be like in 4 years.
+But currently I'll be graduating with a senior summer internship, and I have received multiple full time offers for fall 2026. Majority of my friends who are US citizens will be graduating with multiple offers (including one who will be joining Google!).
+Your experience being a UTCS student will be significantly different than people in non T10 CS schools. If you like the major go for it, but if it's just about getting a job then I'll say this: CS is not for the weak, and most of the people I met freshman year who chose the major purely for the high salary all ended up switching majors.
+As for niches, you don't have to specialize in one thing. UTCS doesn't really have tracks, you just take whatever upper division classes you want. Take a bit of everything (data, SWE, AI/ML, networking, etc).
+
+Potential-Camera-427 | 4 months ago | Upvotes: 1 (reply to Slice_Of_lemon101, edited)
+Hey, I'm an incoming CS major at UT, mind if I DM you with some questions?
+
+Slice_Of_lemon101 | 4 months ago | Upvotes: 1 (reply to Potential-Camera-427)
+Sure, go for it.
+
+Huntthequest | 4 months ago | Upvotes: 8 (edited)
+Obligatory not a CS major, but I have a lot of friends who just graduated in it. They all got really good jobs straight out of college, and one is even an international student technically.
+IMO CS as a market is tough, but UT is a very strong CS school near a tech hub, so I don't think the average doomposter on r/cscareerquestions should frame your entire perspective. Our grads do much better than average in terms of employment/median pay vs most CS grads. Of course that's so long as you actually like it and will put effort into it.
+Side note, ME/EE is better but not the guarantee you think it is if your main worry is the market. I have a few UT engineering friends with high GPAs and internships that still struggled to find any engineering job. Job market's still tough on this side. Plus my UTCS friends are still eclipsing us ME/EEs in pay, though I can't speak for other schools.
+
+thehugekorean | 4 months ago | Upvotes: 3
+UTCS class of '16, currently a senior dev here. With how fast AI is developing, you should go in assuming the industry will need far fewer traditional software engineers by the time you graduate. Anthropic's CEO recently said we might be "6–12 months away from the model doing everything a software engineer does" and that their own engineers are already letting the model write the code while they just edit it. I am not too sure about the timeline, but I can tell you I have not written code myself in half a year. I am already planning for my second phase of career. Just my 5 cents.
+
+ceramic-giraffe | 4 months ago | Upvotes: 1 (reply to thehugekorean)
+THIS
+
+AvianSuperior7 | 4 months ago | Upvotes: 1
+For A&M I would personally not, because your first year you're an undeclared engineer and have to reapply for the engineering major you want — in this case reapplying for CS — and there you have to maintain a good GPA and all that jazz. But for the job market honestly it depends on how much you actually like CS. If you're in it solely for the money you just gotta be really locked in, and I would imagine engineering would be a little more forgiving if you weren't as into it. However if you are interested in CS I say stick with it and make sure to do projects on the side and while doing those projects try to find that niche you like, because you won't take those niche types of classes till sophomore year anyway.
+TLDR: if you're only CS for money be ready to lock in a lot for jobs/maybe look into engineering. However if you like CS stick with it and do projects to discover your niche.
+
+BigMikeInAustin | 4 months ago | Upvotes: 1
+All jobs are having problems. Engineering is pretty cool — I personally felt that job market was somewhat limited in that only certain companies need an engineer. But maybe a little safer in that it doesn't swing/hype hire as much as programming, whereas almost every company could use some computer help.
+Biggest problem for all students is that junior positions are getting harder to find. In computer programming, big companies are trying to use more AI to replace junior programmers. Smaller companies just pay less and require more experience (unrealistically).
+If you have previous computer programming experience and enjoy it, definitely stay. Keeping up with trends is part of the field. If you picked CS just for the job market and don't have previous experience, it's going to be hard to stay motivated. The money is far from guaranteed.
+
+segwaychimp | 4 months ago | Upvotes: 1
+I'm past graduation and in the workforce. CS is not cooked, but it is in the sense that you might have a tough time finding a six figure offer right out of school. Many will still get them, but honestly you have to be lucky. If you are flexible there are opportunities to be a programmer or software engineer in many different industries. Plus experience and changing jobs will help you climb the ladder.
+
+ceramic-giraffe | 4 months ago | Upvotes: 4 (reply to segwaychimp)
+That's sad because when I graduated from UT, starting offers for CS were $100k+ fresh out of college. Too bad billionaires have messed up the world and economy so bad that everyone gets to struggle now!
+
+ceramic-giraffe | 4 months ago | Upvotes: 1 (follow-up)
+Judging off how the tech industry has been going in the last few years, tens of thousands of CS grads have been laid off and that's only when we look at the big tech company scale (like Google, Meta, etc.).
+
+ShadesSensei | 4 months ago | Upvotes: 1
+It depends on what you focus on in the CS field. It's CS types that work on developing the AI models.
+
+TrySouthern9542 | 4 months ago | Upvotes: 1
+Yeah I mean a lot of people in my grade who would've probably been locks for UTCS switched to things like business and SDS... probably a sign lol.
+
+West-Investment6067 | 4 months ago | Upvotes: 1
+Wouldn't worry about CS at all. All my friends and I are sophomores and we're chilling with internships lined up. Just put in the work and you're chilling. Also a lot of people from UT get solid interviews, name definitely means something.
+
+kmin0 | 3 months ago | Upvotes: 1
+Yo like if you got into UT CS, getting a job will be insanely easy for you.
+
+freerice88 | 4 months ago | Upvotes: 0
+Yea it's over.
+
+petitelittleguy | 4 months ago | Upvotes: -1
+CS is cooked.

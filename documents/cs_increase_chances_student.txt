@@ -1,0 +1,28 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: How does one increase their chances of UT CS?
+Flair: Chance Me
+Approximate Date: ~2 years ago
+
+Original Post — Blue_Robin_Gaming (OP)
+I want a CS degree but I heard that UT's CS program is extremely selective. How does one increase their chances to the highest extent? Is it mostly EC based or is it mostly grades?
+
+Comments
+Real_Scar_3883 | 2 years ago | Upvotes: 7
+Having high grades/class rank and test scores are just the prerequisite for the CS program — you gotta have strong ECs and demonstrate a strong passion in CS.
+
+Blue_Robin_Gaming (OP) | 2 years ago | Upvotes: 1 (reply to Real_Scar_3883)
+So if I have:
+
+CS Club since freshman year
+Programming for a CTF competition and making all the puzzles
+NASA HUNCH (still working on this)
+Mr. Ben Merch store (unfinished, a sub club of the CS forum, will finish soon)
+CyberPatriot nationals (kinda got carried by my team, and it's in all service div)
+
+Should I be set?
+
+OppositeWafer7924 | 2 years ago | Upvotes: 1 (reply to OP)
+Be careful about your EC descriptions. CyberPatriot doesn't have "nats."
+
+Helpful_Attitude_812 | 2 years ago | Upvotes: 2
+Look at LinkedIn profiles of seniors in your high school and other neighboring high schools. They should be bragging about summer CS programs they've attended and/or hackathons they've competed in.

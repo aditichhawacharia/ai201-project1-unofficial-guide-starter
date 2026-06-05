@@ -1,0 +1,34 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: How is the MIS Major?
+Flair: Question
+Approximate Date: ~4 years ago
+Upvotes: 15 | Downvotes: 9
+
+Original Post
+Hello! Prospective UT Austin student here. I recently was just accepted for math, but I've been looking at the MIS program after I applied and grew really interested in it. I'm interested in product/project managing, so I think MIS serves me better.
+For any MIS majors reading this, how has your overall experience in the program been? Such as coursework, material you're learning, internships, etc.
+Additionally, how would the transfer process to change my major from math to MIS be? If for some reason I cannot transfer, would it be possible for me to double major in both math and MIS? Any insight would be much appreciated. Thank you!
+
+Comments
+matthew6645 | 4 years ago | Upvotes: 5
+Math can get you way further than you might think career wise as math is a very versatile degree. If I were you I'd apply for internal transfer into Cockrell ECE, CS, and MIS. CS would be the best option because most tech companies require coding knowledge for PM, but it depends on the place. All of these transfer processes are intense (take it from someone who internally transferred twice) but it's worth a shot.
+
+[deleted] | 4 years ago
+(comment removed)
+
+boxshol | 4 years ago | Upvotes: 4
+Best friend transferred from UGS (generic undeclared) to MIS, learned some good hard skills, but his first year at UT was tons and tons of work to get the grades he needed. After the transfer, he really got to chill out though.
+
+diope_bidness | 4 years ago | Upvotes: 3
+I transferred from undeclared to MIS my freshman year. As others have mentioned, whether you get in or not is mostly GPA based as far as I know. I was able to secure a 4.0 by taking the right classes and trying pretty hard, which got me in. Definitely doable if you put your mind to it.
+As far as MIS itself, I was overall pretty satisfied with the major (I'm a senior). I thought the core business classes were actually pretty helpful all things considered (i.e. accounting, management, finance). The MIS classes were also pretty good — we learn some SQL, some web development with .NET programming, and IT project development. These skills are pretty in demand so finding a job/internship shouldn't be too challenging. Best of luck, let me know if you have any questions.
+
+TheWuster935 | 4 years ago | Upvotes: 2
+As a MIS major, I don't think it has been much of a value add since it really just prepares you for working in IT at a legacy F500 company.
+If you are interested in project management, MIS is pretty good if you are interested in doing it outside of Silicon Valley. If you are interested in product management, the best major is CS, but so long as you can land a SWE internship prior to applying you will be on the same playing field as a CS major. I would say it is easier to land a SWE internship as a math major than a MIS major. You can also join student orgs that help with PM recruiting too.
+
+SearSpret | 4 years ago | Upvotes: (not listed)
+Hello! Fellow MIS major here. Congrats on getting into UT!!
+My overall experience with the major has been pretty positive. It's a tough major, but I really like that the courses have taught me how to approach different types of tech problems and not just how to code. In addition, because MIS is in business, I feel like every class I've taken that pertains to the major has been relevant and useful.
+One might think that having that CS and business mix would be great for landing a PM internship, but it really isn't the case. The major mostly prepares students to land tech consulting and analytics positions. Even though I have a PM internship this summer, I feel like I mostly got it due to past internships, the orgs I'm in, and projects I've done outside of class. However, although MIS may "not look good on paper," it definitely helped me in interviews as I was able to communicate better than others.
+Over 90% of people in my cohort are CS majors and I'm the only business major there, so you might really want to consider transferring to CNS instead. However, if you think MIS is right for you, it's definitely not impossible to landing PM roles.

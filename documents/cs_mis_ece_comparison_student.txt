@@ -1,0 +1,60 @@
+Source: Reddit — r/[subreddit unknown]
+Thread Title: CS vs MIS vs ECE?
+Flair: Question
+Approximate Date: ~4 years ago
+Upvotes/Downvotes: Not listed
+
+Original Post — [deleted] (OP)
+Hi y'all! I'm a current high school senior who's hoping to be admitted into UT for the Fall 2023 cycle, and after going to the Texas Preview session earlier today, I've kinda hit a wall in terms of what major I want to pursue.
+I've wanted to pursue something primarily in software with business intertwined into it, so I've gotten into CS recently in high school, but I'm not sure if it's the right path for me or if I'll like it down the road. Similarly, MIS does seem ideal, but I feel as though MIS doesn't have enough programming for my liking, plus I'll have to go through the Undeclared Business phase before I can even start. Finally, ECE is still on the table but I feel like that might be too much hardware curriculum for me to handle, plus not enough business. The dream would be the CSB program, but that's probably too elite for my hopes anyway. The other problem I face is that McCombs, Cockrell, and CNS are all quite competitive, so if I don't get into either of the two majors I specify on my application I'm kinda screwed. So I've come here to ask y'all for any advice on the matter. Is there a major that best suits what I'm looking for? Maybe I minor in something? Because honestly I have no idea at this point.
+
+Comments
+Mission_Ad9202 | 4 years ago | Upvotes: 17
+There's no problem with the undeclared business phase — many schools do it. There's no cap on how many people can do each degree in McCombs. If you're admitted into McCombs, you're free to do MIS with no problems. One of the freshman year courses we all take is also MIS 301. I'm curious why you don't like the idea of the first year being undeclared, never really thought of the opposing side so I'm interested.
+
+[deleted] (OP) | 4 years ago | Upvotes: 3 (reply to Mission_Ad9202)
+If I went through the undeclared path, there wouldn't be as much programming in my first year as MIS, and programming is something I'm interested in so I'd like to focus on that as well. Not sure if a CS minor is possible, but maybe that could work? Like I said CSB is the dream but that's probably out of my league, so I'm trying to get something as similar as possible.
+
+bibblebobble101 | 4 years ago | Upvotes: 7 (reply to OP)
+There's an Elements of Computing certificate that you can do alongside MIS!
+
+samwello_105 | 4 years ago | Upvotes: 3
+If you want to do programming or you want to be involved with the software side of things, do Computer Science. You can always get a business minor or a certificate.
+
+[deleted] (OP) | 4 years ago | Upvotes: 1 (reply to samwello_105)
+Which one out of the minor or certificate would be more beneficial for the long term (i.e. employers and internships)?
+
+samwello_105 | 4 years ago | Upvotes: 3 (reply to OP)
+From my knowledge, a CS major and business minor is a more attractive combination than a business major and computing certificate. The type of programming you learn in MIS is going to be very business specific and data oriented. CS has more room for you to choose where you want to specialize.
+
+german_mtz | 4 years ago | Upvotes: 4
+MIS + Elements of CS, OR CS + business foundations. Either should be a good option for what you want.
+
+Prinz_ | 4 years ago | Upvotes: 4
+CS + business double major or business certificate of some type. ECE is only hardware focused if you want it to be — this is not exactly correct though, you have to take 10 credit hours (EE 302, EE 411, EE 313) for the intro hardware-esque courses. I'd probably put CS as first choice then ECE as second choice on the app. ECE can still get you CS jobs, but IMO it's not as good because unless you have prior programming experience, your first year internship options are not very good from ECE.
+
+DarkenedAsian | 4 years ago | Upvotes: 3
+ECE is only hardware focused if you want it to be. I'm going the software engineer track and I prefer it over the CS curriculum — ECE starts at lowest languages like assembly and you progress in a linear fashion: Assembly, C, C++, Java, Python. Makes you appreciate higher level languages more and understand memory management better than the CS degree which throws you into Java first and you work backwards. Also, hardware classes such as 306, 319K, and 316 ingrain the design principles necessary to succeed in CS and are really helpful for understanding abstraction.
+
+engineeringqmark | 4 years ago | Upvotes: 3
+Do ECE/CS and go into SWE — all jobs suck but those will be the most lucrative.
+
+hotchilly_11 | 4 years ago | Upvotes: 3
+You can go MIS with the Elements of Computing certificate — it's probably the best option.
+
+[deleted] | 4 years ago | Upvotes: 5
+Pick ECE or CS. It's much more lucrative, and while it's difficult, it's 100% worth it. It's also quite broad, and you'll find something you like within the field.
+
+Anceint | 4 years ago | Upvotes: 2
+MIS seems like the best choice here, but "something primarily in software with business intertwined" is still really vague — that could mean technical consulting, development in a trading firm, or working in a startup company (all of which are significantly different). A year of undeclared business doesn't have to be a year without programming. Although it'd require a level of self initiative, things like hackathons, personal projects, etc. can help fill the programming void and help you define the kind of career you're interested in. The Elements of Computing cert is also a great choice, although I'm not able to speak on whether it'd overlap with your MIS coursework.
+
+dontpanicitsorganik | 4 years ago | Upvotes: 1 (edited)
+Informatics — it's a combination of all three. Add the Elements of Computing certificate to get some more programming experience.
+
+RedRaven47 | 4 years ago | Upvotes: 1
+Something to consider is that in order to apply to CSB you need to apply either first choice CS and second choice undeclared business, or first choice undeclared business and second choice CS. Depending on which one you pick as first choice, you also have the opportunity to apply for the Canfield Business Honors Program or the Turing Scholars program — both are also competitive but still worth a shot to apply. Since you said you wanted to do something primarily in software, I would suggest applying for CS as first choice and seeing how the process goes from there. Informatics also seems worth considering as it does seem to be the mix of software and business you are looking at, but I don't think you'll be able to apply to CSB if you choose it as your first choice major. I honestly don't know too much about Informatics as it is a new major — it may be worth looking into and emailing them to find out more information.
+
+ElectricalBed8711 | 4 years ago | Upvotes: (not listed)
+I will say many CS students freshman year say something along the lines of "I want to work in the intersection of business and tech" and end up working as software engineers. I think CS and EE are the better options if you fall in that category because: (1) you can find a job like tech consulting or software engineer at a fintech company, and (2) if you decide that business is not for you, software engineering, data science, ML engineer, or any other coding-heavy career is possible.
+I was double majoring in CS and business and dropped my business degree as I realized for the jobs I wanted (software engineer, ML engineer), the business degree didn't really add any value career-wise outside of just taking classes I'm interested in.
+Obviously you are not even in college yet and it is perfectly fine to not know what kind of career you want, but just something to keep in mind as you make your decision. With a CS degree, you can really do anything you want.

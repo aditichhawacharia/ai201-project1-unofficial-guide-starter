@@ -1,0 +1,61 @@
+ndergraduate Major
+The Bachelor of Science in Statistics and Data Science is a four-year degree that provides students with foundational training and marketable skills in statistics and data science.
+IN THIS SECTION
+Major Overview
+Admissions
+Program Description
+
+DEGREE TYPE
+
+Bachelor of Science
+CREDIT HOURS
+
+120
+The Bachelor of Science in Statistics and Data Science equips students to execute all stages of data analysis, apply common techniques in statistics and machine learning, respect the principles and best practices of reproducible data science and articulate the role of statistics and data science in a just and ethical society. The program provides a strong foundation in the established field of statistics while reaching into the modern and emerging field of data science.
+Admissions
+
+The Bachelor of Science in Statistics and Data Science is available to Fall Freshman applicants. We are currently not accepting transfer applications.
+SDS held a virtual information session on March 27, 2023:
+
+Degree Requirements
+
+The bachelor's degree requirements total 120 credit hours comprised of the following: 
+See the suggested arrangement of courses for a 4-year plan.
+Flags Update: Effective Monday, April 7, 2025, UT students are no longer required to complete Flags courses to be eligible to graduate. 
+1
+Seven courses in the major (22 credit hours) beginning in the first semester
+SDS 313 Introduction to Data Science
+SDS 315 Statistical Thinking
+SDS 431 Probability & Statistical Inference
+SDS 334 Intermediate Statistical Methods
+SDS 336 Practical Machine Learning
+SDS 354 Advanced Statistical Methods
+SDS 357 Case Studies in Data Science
+2
+Five foundational courses in Mathematics and Computer Science (17 credit hours)
+M 408C Differential Calculus*
+M 408D Sequences, Series and Multivariable Calculus*
+M 340L Matrices & Matrix Calculations or M 341 Linear Algebra and Matrix Theory
+C S 303E Elements of Computers and Programming
+C S 327E Elements of Databases (prerequisite: C S 313E Elements of Software Design**)
+3
+Four courses to fulfill the breadth requirement (12 credit hours)
+Must be from a single field of study outside of SDS
+At least 6 hours must be upper-division coursework
+4
+Two courses of Approved SDS Electives (6 credit hours)
+SDS 364  Bayesian Statistics      
+SDS 366  Data Visualization     
+SDS 368  Statistical Theory       
+SDS 375 Topic: Sports Analytics
+STA 372T.21 Time Series Forecasting
+5
+Ten courses of Free Electives (30 credit hours)
+6
+Eleven additional courses for the Core Curriculum (33 credit hours)
+* M408C and M 408D may be replaced by one of the following three-semester calculus sequences: (1) M 408K, 408L, and 408M; or (2) M 408N, 408S, and 408M. In these sequences, the third calculus course may count as elective hours or breadth requirement if Mathematics is selected as breadth field of study.
+
+** C S 313E Elements of Software Design must be taken prior to C S 327E Elements of Databases and may count as elective hours or breadth requirement if Computer Science is selected as breadth field of study.
+Careers
+
+Graduates of this program may be hired as statisticians or data scientists who are able to collect and curate large volumes of data, bring statistical and machine learning methods to bear on new questions and create data pipelines and workflows that transform digital information into actionable insights. Perhaps most importantly, employers are looking for individuals who are equipped with the foundational training needed to ensure that the individuals they hire into these roles are readily able to learn and critically assess new tools as they become available. Students will also be prepared to succeed in graduate studies.
