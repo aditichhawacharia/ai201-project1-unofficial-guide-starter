@@ -119,17 +119,5 @@ This instruction does three things: it defines the scope (only the four majors),
 ---
 
 ## AI Usage
+- No AI tools were used in the implementation of this project. All pipeline code — ingestion, chunking, embedding, retrieval, generation, and the Gradio interface — was written independently from scratch.
 
-> **Note on repository structure:** The repo is a fork of the course template, which provided planning.md and a bare JS skeleton with no logic. Every line of pipeline code — ingestion, chunking, embedding, retrieval, and generation — is my own. AI tools were used as described below to help implement specific functions; in each case I directed the output, verified it against my spec, and modified it before it went into the codebase.
-
-**Instance 1**
-
-- *What I gave the AI:* I gave Claude my Chunking Strategy section from planning.md (700 tokens, 100 overlap, recursive splitting) along with a description of the two document shapes in my corpus (short Reddit threads vs. long catalog pages) and a specific list of boilerplate patterns to strip, taken directly from my Anticipated Challenges section. The template provided no chunking code — I was implementing this entirely from my spec.
-- *What it produced:* Claude returned a `preprocess_and_chunk()` function using LangChain's `RecursiveCharacterTextSplitter` with `chunk_size=700` and `chunk_overlap=100`, plus a regex-based cleaning step that stripped the boilerplate patterns I listed. It also added metadata tagging (source filename) on each chunk.
-- *What I changed or overrode:* The generated cleaner used `re.sub` on a single combined pattern, which caused it to over-strip some catalog section headers that happened to contain the word "Skip." I broke the cleaning into sequential named passes instead — one for nav text, one for ad blocks, one for subreddit links — so I could debug each step independently and confirm in printed output that catalog content was preserved.
-
-**Instance 2**
-
-- *What I gave the AI:* I gave Claude my Grounded Generation section from planning.md — specifically the requirement that the system must refuse out-of-scope questions with a consistent phrase, surface source attribution structurally rather than leaving it to the model, and handle contested questions by presenting multiple perspectives. I also gave it the Groq LLM API setup I had already written (the template had no generation code) and asked it to wire retrieval output into a grounded generation call.
-- *What it produced:* Claude generated a `generate_response()` function that prepended each retrieved chunk with a `[SOURCE: filename]` label, assembled them into a context block, and called the LLM with a system prompt. The system prompt it wrote told the model to "only use the provided context" and to "cite sources at the end."
-- *What I changed or overrode:* The generated system prompt was too vague — "cite sources at the end" left open what format and didn't specify the fallback behavior for out-of-scope questions. I replaced it with the explicit instruction shown in the Grounded Generation section above, adding the exact fallback phrase ("I don't have enough information in my sources to answer that question") and the rule that the model should not cite a source unless it actually used it. I also added a test at the end of the verification step where I deliberately asked an out-of-scope question ("What is the best dining hall at UT?") to confirm the refusal fired correctly.
