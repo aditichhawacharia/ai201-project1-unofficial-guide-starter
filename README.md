@@ -1,6 +1,8 @@
 # The Unofficial Guide — Project 1
 
-> **Note on repository origin:** This project is submitted from a forked repository. The fork is of the course-provided template, which supplied the planning.md spec structure and document scaffolding. All implementation code — ingestion, preprocessing, chunking, embedding, vector store, retrieval, and generation — was written independently. The template contained no pipeline code; only the planning document format was inherited from it.
+> **Repository note:** This repository is forked from the CodePath Applied AI Engineering Fellowship course template for Project 1: building a production RAG system from scratch.
+>The template ONLY provided the planning.md scaffolding and document structure used for spec planning.
+> All pipeline code (document ingestion, preprocessing, chunking, embedding, vector store construction, retrieval, and grounded generation) was written independently by me as part of this project.
 
 ---
 
