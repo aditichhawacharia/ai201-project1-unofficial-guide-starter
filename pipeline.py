@@ -1,5 +1,8 @@
 from pathlib import Path
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from sentence_transformers import SentenceTransformer
+import chromadb
+from chromadb.utils import embedding_functions
 
 def clean(text):
     cutoff = text.find("New to Reddit?")
@@ -56,9 +59,39 @@ for doc in docs:
             "type": doc["type"],
             "text": piece,
         })
-print("Total chunks:", len(chunks))
-print(chunks[0])
-print(chunks[1])
-print(chunks[2])
-print(chunks[3])
-print(chunks[4])
+#print("Total chunks:", len(chunks))
+#print(chunks[0])
+#print(chunks[1])
+#print(chunks[2])
+#print(chunks[3])
+#print(chunks[4])
+
+sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+client = chromadb.PersistentClient(path="./chroma_db")
+collection = client.get_or_create_collection(name="Documents", embedding_function=sentence_transformer_ef)
+
+chunk_text = []
+metadata = []
+ids = []
+x = 0
+
+for chunk in chunks:
+    metadata.append({"source": chunk["source"], "type": chunk["type"], "position": x})    
+    chunk_text.append(chunk["text"])
+    ids.append("chunk_" + str(x))
+    x = x + 1
+
+#collection.add(
+#    documents = chunk_text,
+#    metadatas = metadata,
+#    ids = ids,
+#)
+
+print("Loaded:", collection.count())
+
+def search(query, k):
+    results = collection.query(
+        query_texts = [query],
+        n_results = k)
+    return results
+
