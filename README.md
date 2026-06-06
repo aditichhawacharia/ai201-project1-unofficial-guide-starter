@@ -1,7 +1,7 @@
 # The Unofficial Guide — Project 1
 
 > **Repository note:** This repository is forked from the CodePath Applied AI Engineering Fellowship course template for Project 1: building a production RAG system from scratch.
->The template ONLY provided the planning.md scaffolding and document structure used for spec planning.
+> The template ONLY provided the planning.md scaffolding and document structure used for spec planning.
 > All pipeline code (document ingestion, preprocessing, chunking, embedding, vector store construction, retrieval, and grounded generation) was written independently by me as part of this project.
 
 ---
@@ -50,6 +50,86 @@ This knowledge is valuable because it is almost entirely absent from official ch
 
 ---
 
+### Sample Chunks
+
+**Chunk 1 — `sds_degree_plan_official.txt` (official)**
+```
+The Bachelor of Science in Statistics and Data Science equips students to execute all stages
+of data analysis, apply common techniques in statistics and machine learning, respect the
+principles and best practices of reproducible data science and articulate the role of
+statistics and data science in a just and ethical society. The program provides a strong
+foundation in the established field of statistics while reaching into the modern and emerging
+field of data science.
+
+Admissions
+
+The Bachelor of Science in Statistics and Data Science is available to Fall Freshman
+applicants. We are currently not accepting transfer applications.
+```
+
+**Chunk 2 — `sds_degree_plan_official.txt` (official)**
+```
+Degree Requirements
+
+The bachelor's degree requirements total 120 credit hours comprised of the following:
+
+1. Seven courses in the major (22 credit hours) beginning in the first semester
+   SDS 313 Introduction to Data Science
+   SDS 315 Statistical Thinking
+   SDS 431 Probability & Statistical Inference
+   SDS 334 Intermediate Statistical Methods
+   SDS 336 Practical Machine Learning
+   SDS 354 Advanced Statistical Methods
+   SDS 357 Case Studies in Data Science
+
+2. Five foundational courses in Mathematics and Computer Science (17 credit hours)
+   M 408C Differential Calculus
+   M 408D Sequences, Series and Multivariable Calculus
+   M 340L Matrices & Matrix Calculations or M 341 Linear Algebra and Matrix Theory
+   C S 303E Elements of Computers and Programming
+   C S 327E Elements of Databases
+```
+
+**Chunk 3 — `sds_degree_plan_official.txt` (official)**
+```
+Graduates of this program may be hired as statisticians or data scientists who are able to
+collect and curate large volumes of data, bring statistical and machine learning methods to
+bear on new questions and create data pipelines and workflows that transform digital
+information into actionable insights. Perhaps most importantly, employers are looking for
+individuals who are equipped with the foundational training needed to ensure that the
+individuals they hire into these roles are readily able to learn and critically assess new
+tools as they become available. Students will also be prepared to succeed in graduate studies.
+```
+
+**Chunk 4 — `cs_competitive_alternatives_blog.txt` (blog)**
+```
+It might surprise you to hear that computer science majors at UT and other top universities
+have only recently become extremely competitive. During the first year that I worked at UT
+in 2011, UT CS received fewer than 600 applications and admitted over 50% of its applicants.
+Back then, petroleum engineering was the most desirable and competitive major since the price
+of oil was around $100. However, five years later, CS received more than five times the
+number of applications for around 2,700, but even then, the admissions rate was still over
+20%.
+
+UT refuses to make the CS admissions statistics public, but I suspect the range is 10,000 to
+13,000 CS applicants in recent cycles while admitting 700 students.
+```
+
+**Chunk 5 — `cs_competitive_alternatives_blog.txt` (blog)**
+```
+UT-Austin has many programs that are adjacent to computer science. Moderately competitive
+alternatives include the McCombs Management Information Systems program, Statistics and Data
+Science in the College of Natural Sciences, applied math, computational biology, and physics.
+The demand for data science and information-oriented careers are likely to exceed software or
+computer engineering jobs over the next decade.
+
+Somewhat less competitive majors are Informatics, the Arts and Entertainment Technologies
+(AET) program in Fine Arts, and the new major in the College of Liberal Arts BS in Behavioral
+and Social Data Sciences.
+```
+
+---
+
 ## Embedding Model
 
 **Model used:** `all-MiniLM-L6-v2` via `sentence-transformers`
@@ -60,12 +140,51 @@ I chose this model because it runs entirely locally — no API key, no rate limi
 
 ---
 
-## Grounded Generation
+## Retrieval — Relevant Chunks Returned for Queries
+
+### Retrieval Test 1: "How good is MIS for product management?"
+
+**Top 4 returned chunks (sources):**
+- chunk_54 — `mis_how_is_the_major_student.txt`
+- chunk_53 — `mis_how_is_the_major_student.txt`
+- chunk_26 — `mis_favorite_courses_student.txt`
+- chunk_5 — `mis_vs_other_majors_student.txt`
+
+**Why these chunks are relevant:** All four chunks come from Reddit threads where students directly discuss MIS career outcomes. chunk_54 contains a current MIS major saying the degree "mostly prepares students to land tech consulting and analytics positions" and that PM roles are possible but not the natural outcome. chunk_53 contains the original post asking about MIS for product/project management plus multiple student replies weighing in on the transfer process and career fit. These are exactly the chunks needed to answer the query — they surface the dominant student opinion that MIS helps with PM interviews but CS is the stronger choice if PM at a top tech company is the goal.
+
+---
+
+### Retrieval Test 2: "How hard is SDS coursework?"
+
+**Top 4 returned chunks (sources):**
+- chunk_30 — `sds_coursework_student.txt`
+- chunk_8 — `sds_questions_student.txt`
+- chunk_1 — `sds_degree_plan_official.txt`
+- chunk_2 — `sds_degree_plan_official.txt`
+
+**Why these chunks are relevant:** chunk_30 is from a thread where a parent asks specifically about SDS coursework difficulty and CS crossover options — directly on-topic. chunk_8 comes from a student who just got into SDS asking about difficulty; it contains the key quote that "freshman SDS courses are pretty easy" but "sophomore ones are a lot harder," and also the advice to lightly brush up on Python beforehand. The two official catalog chunks (chunk_1, chunk_2) provide the formal degree requirements that contextualize what "hard" means structurally. Together these four chunks cover both the student experience angle and the official curriculum angle for this query.
+
+---
+
+### Retrieval Test 3: "What is the Informatics major like?"
+
+**Top 4 returned chunks (sources):**
+- chunk_57 — `informatics_new_degree_blog.txt`
+- chunk_34 — `informatics_degree_plan_official.txt`
+- chunk_33 — `informatics_degree_plan_official.txt`
+- chunk_38 — `informatics_major_opinions_student.txt`
+
+**Why these chunks are relevant:** chunk_57 is the texadmissions.com blog post explaining what Informatics is, who it fits, and what makes it distinctive as its own school rather than a department. chunk_38 is a Reddit post from a transfer student accepted into Informatics asking what the major is like and whether Austin's job market supports it — the exact student perspective the query is looking for. The two official catalog chunks provide the formal degree structure including concentration options (Cultural Heritage, Human-Centered Data Science, Social Justice, Health Informatics). The retrieval correctly mixed blog, official, and student sources to give a complete picture of the major.
+
+---
+
+## Grounded Generation with Source Attribution
 
 **System prompt grounding instruction:**
 
 ```
-You are an assistant that helps prospective UT Austin students understand the CS, MIS, SDS, and Informatics majors.
+You are an assistant that helps prospective UT Austin students understand the CS, MIS, SDS,
+and Informatics majors.
 
 Answer ONLY using the context passages provided below. Do not use any outside knowledge.
 If the provided context does not contain enough information to answer the question, respond with:
@@ -77,7 +196,94 @@ Do not cite a source unless you actually used information from it in your answer
 
 This instruction does three things: it defines the scope (only the four majors), hard-prohibits going outside the retrieved context, specifies the exact fallback phrase so the system has a consistent "I don't know" behavior rather than hallucinating, and requires post-hoc source attribution so the answer is auditable.
 
-**How source attribution is surfaced in the response:** Source attribution is handled structurally, not left to the model's judgment. Each retrieved chunk is passed to the LLM with its source filename prepended as a label (e.g., `[SOURCE: reddit_cs_vs_mis_ece.txt]`). The system prompt instructs the model to list any source labels it drew from under a "Sources:" heading at the end of its response. Because the labels are embedded in the context itself rather than described abstractly, the model does not need to infer which document it is citing — it simply echoes the label it was given.
+**How source attribution is surfaced in the response:** Source attribution is handled structurally, not left to the model's judgment. Each retrieved chunk is passed to the LLM with its source filename prepended as a label (e.g., `[SOURCE: reddit_cs_vs_mis_ece.txt]`). The system prompt instructs the model to list any source labels it drew from under a "Sources:" heading at the end of its response. Because the labels are embedded in the context itself rather than described abstractly, the model does not need to infer which document it is citing — it simply echoes the label it was given. In the Gradio interface, these sources are also displayed separately in a "Retrieved from these sources" panel beneath the answer box.
+
+---
+
+### Example System Response 1: "How hard is it to get into CS at UT Austin?"
+
+> Getting into the Computer Science (CS) program at the University of Texas at Austin (UT Austin) is extremely competitive. According to (Doc 3), the number of CS applications has skyrocketed since 2015, with the program now receiving between 10,000 to 13,000 applications and admitting only around 700 students. This puts the admission rate at around 5–7%, which is significantly lower than the 20% admission rate in 2016 (Doc 3). In fact, (Doc 3) states that if you rank outside the top 10%, it's almost impossible to get into UT CS.
+>
+> The competitive nature of the program is also reflected in the experiences shared by students on Reddit. For example, (Doc 2) features a student who has been involved in various extracurricular activities such as CS Club, programming for a CTF competition, and NASA HUNCH, yet still expresses uncertainty about their chances of getting into the program. Another student in (Doc 4) shares their impressive academic credentials, including a 3.98 unweighted GPA and a 1500 on the SAT, but still feels anxious about the competition.
+>
+> While (Doc 1) provides information on the graduation requirements for the CS program, it does not offer insight into the admission process. However, (Doc 4) provides some advice from a student who has a friend currently in the UT CS program, suggesting that taking AP classes, participating in Science Olympiad, and having a strong background in math and science can be helpful.
+>
+> It's worth noting that UT Austin does not make its CS admissions statistics public, as mentioned in (Doc 3). However, based on the information available, it's clear that getting into the CS program at UT Austin is highly competitive and requires a strong academic record, as well as meaningful extracurricular experiences.
+>
+> In terms of specific advice, (Doc 2) and (Doc 4) suggest that having a strong passion for CS, demonstrated through extracurricular activities and experiences, can help increase one's chances of getting into the program. Additionally, (Doc 4) recommends showing a strong background in math and science, and taking AP courses or CS courses if available.
+
+**Sources:**
+- cs_degree_plan_official.txt
+- cs_increase_chances_student.txt
+- cs_competitive_alternatives_blog.txt
+- cs_dream_admission_student.txt
+
+---
+
+### Example System Response 2: "How good is UT Austin CS?"
+
+> You're considering the Computer Science program at UT Austin, and you want to know how good it is. According to a student on Reddit, the CS program at UT Austin is "one of the best in the nation, definitely top 10." Another student notes that the program is highly ranked across all of its specialties and has involvement from top companies like IBM, Dell, Microsoft, and Google. The Friends of Computer Science program also connects students to jobs, internships, and opportunities in big tech, which can be a huge benefit.
+>
+> However, some students feel that the prestige of graduating from a competitive university like UT Austin may not be as important as the effort you put into learning and your side projects. As one student on Reddit puts it, "the effort you put into learning and your side projects has a bigger impact than who is teaching or which university you attended."
+>
+> It's also worth noting that the CS building at UT Austin is highly regarded, with one student commenting that it's "gorgeous in and out" thanks to a $60M donation from Bill Gates. However, another student notes that the building "smells really bad."
+>
+> Per official UT documentation, the CS program has a rigorous set of requirements, including a University grade point average of at least 3.25 and a grade point average of at least 3.25 in computer science courses to graduate with honors.
+>
+> Overall, it seems that the CS program at UT Austin is highly regarded by students and has a strong reputation in the industry. However, it's also important to consider your own goals and motivations, and to remember that the quality of your education is not solely determined by the university you attend.
+>
+> Sources used: cs_program_quality_student.txt, informatics_major_opinions_student.txt, cs_program_quality_student.txt, cs_degree_plan_official.txt
+
+**Retrieved from these sources:**
+- cs_program_quality_student.txt
+- informatics_major_opinions_student.txt
+- cs_degree_plan_official.txt
+
+---
+
+### Out-of-Scope Query Example: "What are the best dorms at UT Austin?"
+
+> You're looking for advice on the best dorms at UT Austin. However, I don't have enough information on that in my sources. The documents I have access to discuss the Informatics major, the quality of the CS program, and degree requirements, but they don't mention dorms. According to a student on Reddit, you're likely concerned about getting settled in Austin, but unfortunately, the conversation doesn't touch on dorms. One blog notes the new Informatics degree and its potential benefits, while another discussion among students praises the CS program, but again, no mention of dorms. Per official UT documentation, there are details on graduation and degree requirements, but nothing about dorms.
+>
+> Sources used: informatics_major_opinions_student.txt, informatics_new_degree_blog.txt, cs_program_quality_student.txt, cs_degree_plan_official.txt
+
+**Note on this refusal:** The system correctly identified that dorm information is outside its source corpus and stated it lacked sufficient information. The response demonstrates the grounding instruction working as intended — the model did not invent dorm recommendations. However, it slightly over-explained by summarizing what the sources do cover rather than returning the clean fallback phrase. This is a known behavior of the LLM rationalizing around the constraint rather than obeying it strictly, and could be tightened with a more directive system prompt.
+
+---
+
+## Query Interface
+
+The system is built as a Gradio web app with the following layout:
+
+**Input fields:**
+- A labeled text box: *"Ask a question about UT Austin majors"* — accepts free-text natural language questions from the user
+- A large orange **Ask 🔍** button to submit the query
+- A sidebar panel labeled *"💡 Try asking:"* with five clickable example questions that auto-populate the input field: "How good is MIS for product management?", "How hard is it to get into CS at UT Austin?", "Should I pick CS, MIS, or Informatics?", "What are the best MIS electives?", and "Is ECE worth it for software engineering?"
+
+**Output fields:**
+- An **Answer** panel displaying the full LLM-generated response, grounded in the retrieved context
+- A collapsible **📄 Retrieved from these sources** panel listing the filenames of the source documents used
+
+**Stack displayed in footer:** ChromaDB · LangChain · Groq LLaMA 3.3 · Sentence Transformers
+
+---
+
+### Sample Interaction Transcript
+
+**Query:** `how hard is it to get into CS at UT Austin?`
+
+**Answer:**
+Getting into the Computer Science (CS) program at the University of Texas at Austin (UT Austin) is extremely competitive. According to (Doc 3), the number of CS applications has skyrocketed since 2015, with the program now receiving between 10,000 to 13,000 applications and admitting only around 700 students. This puts the admission rate at around 5–7%, which is significantly lower than the 20% admission rate in 2016 (Doc 3). In fact, (Doc 3) states that if you rank outside the top 10%, it's almost impossible to get into UT CS.
+
+The competitive nature of the program is also reflected in the experiences shared by students on Reddit. For example, (Doc 2) features a student involved in CS Club, a CTF competition, and NASA HUNCH, yet still uncertain about their chances. Another student in (Doc 4) has a 3.98 unweighted GPA and a 1500 SAT but still feels anxious about the competition.
+
+In terms of specific advice, (Doc 2) and (Doc 4) suggest that demonstrating a strong passion for CS through extracurriculars can help. Additionally, (Doc 4) recommends a strong background in math and science and taking AP or CS courses if available.
+
+**Retrieved from these sources:**
+- cs_degree_plan_official.txt
+- cs_increase_chances_student.txt
+- cs_competitive_alternatives_blog.txt
+- cs_dream_admission_student.txt
 
 ---
 
@@ -90,9 +296,6 @@ This instruction does three things: it defines the scope (only the four majors),
 | 3 | When UT students compare CS, MIS, and ECE for someone wanting "software with business," what do they recommend? | Major in CS or ECE, add business via a minor/certificate; CS + business minor beats MIS; ECE is not hardware-only | Correctly surfaced the dominant advice to major in CS and add the Elements of Computing certificate or a business minor; noted ECE is flexible; accurately captured that multiple commenters pushed back on MIS as a primary path for someone who wants to be a software engineer | Relevant | Accurate |
 | 4 | What do students say about the difficulty of SDS coursework and whether you need prior coding experience? | Not especially hard but coding-heavy; prior coding not required; freshman courses teach R; Python suggested | Retrieved two chunks from the SDS coursework thread. Response said freshman courses are "pretty easy" and get harder sophomore year, that no prior coding experience is required since the program teaches R, and that a MacBook works fine — all consistent with expected answer. Did not surface the Python brushup suggestion from one commenter. | Partially relevant | Partially accurate |
 | 5 | What do students say about UT's Informatics program and job prospects for it? | Small program (~100 undergrads), launched Fall 2021, positive but candid about the field being new and unknown to employers; student hadn't landed an internship yet | Surfaced the Informatics thread and the texadmissions blog post. Correctly noted the program launched Fall 2021, is small, and that Austin's tech market is growing. Did not surface the detail that the student posting hadn't landed an internship yet — that comment was in a lower-ranked chunk that fell outside top-k. | Partially relevant | Partially accurate |
-
-**Retrieval quality:** Relevant / Partially relevant / Off-target  
-**Response accuracy:** Accurate / Partially accurate / Inaccurate
 
 ---
 
@@ -114,10 +317,14 @@ This instruction does three things: it defines the scope (only the four majors),
 
 **One way your implementation diverged from the spec, and why:** The spec set top-k at 4–5, framed as a starting point to tune after seeing real retrieval results. After testing, I found that for multi-commenter threads where the full answer is distributed across users, k = 4 consistently missed at least one relevant chunk on 3 of my 5 test questions. I settled on k = 5 as the default rather than the lower end of the range, and flagged in the failure case analysis that even k = 5 was insufficient for Question 4. The spec correctly anticipated this as a risk but underestimated how often it would actually fire — nearly every substantive question draws on at least two different commenters' chunks.
 
-> **Note on repository structure:** The project repo is forked from the course-provided template, which supplied the planning.md scaffolding, the folder structure, and a bare-bones JS starter file. No pipeline logic was pre-written in the template — the starter file was an empty shell with placeholder comments. All code in the repo (ingestion, chunking, embedding, retrieval, generation, and the Gradio interface) was written by me from scratch using the template only as a structural starting point.
-
 ---
 
 ## AI Usage
-- No AI tools were used in the implementation of this project. All pipeline code — ingestion, chunking, embedding, retrieval, generation, and the Gradio interface — was written independently from scratch.
 
+**Instance 1 — Planning and spec outline:** I used Claude to help structure planning.md before implementation began. I described the domain (UT Austin major comparisons, Reddit + official sources) and the four pipeline stages I was planning, and asked it to help think through what sections the spec should cover and what risks were worth naming in the anticipated challenges section. I then reviewed the output and revised it significantly — I added the specific boilerplate patterns I had already noticed in the Reddit source files (the r/banjo link, the nav header text), sharpened the expected answers in the evaluation plan to be more specific and verifiable, and cut two generic risks that didn't actually apply to this corpus. The final planning.md reflects my own judgments about this specific domain; the AI helped me not miss any structural sections.
+
+**Instance 2 — Chunking and retrieval strategy:** I talked through the chunking tradeoff with Claude before writing the pipeline. Specifically, I described the two document shapes in my corpus — short Reddit comments and dense catalog blocks — and asked whether a single chunk size could reasonably serve both. The AI walked through the tradeoff between preserving comment-level granularity and keeping catalog requirements intact, which confirmed my intuition toward 700 tokens and helped me articulate why recursive splitting was the right splitter choice over character-based splitting. I wrote all the pipeline code myself; this conversation informed the reasoning I later documented in the README, but the actual implementation decisions and code were mine.
+
+---
+
+> **Note on repository structure:** The project repo is forked from the course-provided template, which supplied the planning.md scaffolding, the folder structure, and a bare-bones JS starter file. No pipeline logic was pre-written in the template — the starter file was an empty shell with placeholder comments. All pipeline code in the repo (ingestion, chunking, embedding, retrieval, generation, and the Gradio interface) was written by me from scratch using the template only as a structural starting point.
